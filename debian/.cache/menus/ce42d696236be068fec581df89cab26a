@@ -1,0 +1,168 @@
+1.1
+applications.menu
+15
+D/home/debian/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/home/debian/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications/screensavers
+D/usr/share/applications
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/etc/xdg/menus/applications-merged
+D/home/debian/.config/menus/applications-merged
+F/home/debian/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+Unity;
++Applications
+Applications
+Applications
+applications-other
+lxde-menu-applications.directory
+2
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+2
+-pcmanfm.desktop
+File Manager
+Browse the file system and manage the files
+system-file-manager
+
+8
+File Manager
+pcmanfm %U
+2
+0
+-gedit.desktop
+gedit
+Edit text files
+accessories-text-editor
+
+8
+gedit Text Editor
+gedit %U
+2
+0
+-yelp.desktop
+Help
+Get help with GNOME
+help-browser
+
+8
+Help
+yelp %u
+2
+34
+-leafpad.desktop
+Leafpad
+Simple text editor
+leafpad
+
+8
+Leafpad
+leafpad %f
+0
+0
+-lxterminal.desktop
+LXTerminal
+Use the command line
+lxterminal
+
+8
+LXTerminal
+lxterminal -l -e bash
+0
+0
+
++Internet
+Internet
+Programs for Internet access such as web and email
+applications-internet
+lxde-network.directory
+2
+-chromium.desktop
+Chromium Web Browser
+Access the Internet
+chromium
+
+8
+Chromium Web Browser
+/usr/bin/chromium %U
+2
+0
+-wicd.desktop
+Wicd Network Manager
+Start the Wicd client without system tray icon
+wicd-gtk
+
+8
+Wicd Network Manager
+wicd-gtk --no-tray
+0
+0
+-xchat.desktop
+XChat IRC
+Chat with other people using Internet Relay Chat
+xchat
+
+8
+XChat IRC
+xchat
+2
+0
+
+-
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+2
+-xinput_calibrator.desktop
+Calibrate Touchscreen
+Run the calibration tool for touchscreens
+xinput_calibrator
+
+8
+Calibrate Touchscreen
+/bin/sh -c "xinput_calibrator; cat"
+3
+0
+-obconf.desktop
+Openbox Configuration Manager
+Configure and personalize the Openbox window manager
+obconf
+
+8
+Openbox Configuration Manager
+obconf %f
+2
+0
+-libfm-pref-apps.desktop
+Preferred Applications
+
+preferences-desktop
+
+8
+Preferred Applications
+libfm-pref-apps
+2
+-15
+-xscreensaver-properties.desktop
+Screensaver
+Change screensaver properties
+xscreensaver
+
+8
+Screensaver
+xscreensaver-demo
+0
+0
+
+

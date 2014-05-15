@@ -1,0 +1,9 @@
+#!/bin/bash
+#Start-up script
+
+make clean
+make
+
+./bbbtest
+
+python testsend.py

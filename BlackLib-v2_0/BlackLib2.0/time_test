@@ -1,0 +1,7 @@
+#!/bin/bash
+#time test
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/BlackLib-v2_0/BlackLib2.0
+
+
+sudo python time_test.py
+sudo echo "Hello World!" > /tmp/hello.txt

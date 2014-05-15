@@ -1,0 +1,4 @@
+Xsession: X session started for debian at Wed May 14 21:19:05 CDT 2014
+localuser:debian being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
